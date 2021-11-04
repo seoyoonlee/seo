@@ -1,0 +1,118 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Tamplate Web Site</title>
+      <style>
+         body{margin: 0;}
+         header{
+         height: 200px;
+         background-color: #289ab0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         }
+         nav{
+         display: flex;
+         background-color: #333333;
+         }
+         nav a {
+         color: white;
+         padding: 14px 20px;
+         text-decoration: none;
+         text-align: center;
+         }
+         nav a:hover{
+         background-color: #dddddd;
+         color: black;
+         }
+         #container{
+         display: flex;
+         flex-wrap: wrap;
+         }
+         aside{
+         background-color: #f1f1f1;
+         padding: 20px;
+         }
+         article{
+         flex: 7;
+         background-color: white;
+         padding: 20px;
+         }
+         h2{
+         margin-block-start:2em;
+         margin-inline-start: 2em;
+         }
+         .fakeimg{
+         background: #aaaaaa;
+         padding: 20px;
+         }
+         footer{
+         padding: 20px;
+         text-align: center;
+         background: gray;
+         }
+         div.contents {
+         padding: 20px;
+         }
+         @media all and (max-width: 600px){
+         #container, nav{
+         flex-direction: column;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div style="background-color: #32b0c9; padding: 5px;">
+         <h4 style="text-align: center;"> seohyun highschool </h4>
+      </div>
+      <header>
+         <h1>COVID-19</h1>
+         <div class="refmenu">
+            <a href="https://seohyun.hs.kr/home/index.do" target="_blank">School</a>
+            <a href="http://ncov.mohw.go.kr/" target="_blank">Covid-19</a>
+            <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
+         </div>
+      </header>
+      <nav>
+         <a href="index1.html" >코로나 현황</a>
+         <a href="index2.html" >예술계</a>
+         <a href="index3.html" >경제</a>
+         <a href="index4.html" >미디어</a>
+      </nav>
+      <div id="container">
+         <aside>
+           <h2>예술계  </h2>
+           <h5> 김예은 </h5>
+            <ul>
+               <li>코로나로 인한 예술계 변화</li>
+            </ul>
+         </aside>
+         <article>
+            <div class="contents">
+               <h2>코로나로 인한 예술계 변화</h2>
+               <h5> written by 20224김예은, Oct/13/2021</h5>
+               <p>2020년 발생한 코로나 19의 세계적대유행은 <b>사회, 경제, 문화 전반</b>에 큰 영향을 끼치고있으며, 예술계에도 큰 충격을 끼치고 있다.
+                  이러한 세계적 대유행으로 인해생겨난 비대면, 사회적 거리두기 등의 방역수칙은 미술관, 전시관 등의 폐쇄, 무기한 연기 등을 초래했다.
+                  <br> <br><b>그렇다면 예술계는 이를 어떻게 극복하고 있는가?</b> <br>
+                  비대면으로도 예술작품들을 감상할 수 있는 온라인 예술관들의 종류와,
+                  코로나 비대면을 극복해내고 위축된 예술계를 복구하기 위한 노력들을 알아보자. <br>
+               </p>
+               <a href="https://www.culture.go.kr/homes/homesMainList.do">문화포털
+               </a>
+               <p><b> 문화포털에서는 '집콕문화생활'이라는 제목으로 올라인 공연/전시를 소개하고 있다.
+                  </b>
+               </p>
+               <a href="https://www.youtube.com/hashtag/%EC%A0%84%EC%8B%9C%ED%88%AC%EC%96%B4">온라인 전시 투어
+               </a>
+               <p><b> ‘전시 투어’는 대구미술관, 부산시립미술관, 국립 현대 미술관 등 다양한 미술관들이 활용하고 있다.
+                  </b>
+            </div>
+         </article>
+      </div>
+      <footer>
+         <h2>Footer</h2>
+      </footer>
+   </body>
+</html>

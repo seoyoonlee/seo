@@ -1,0 +1,123 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Tamplate Web Site</title>
+      <style>
+         body{margin: 0;}
+         header{
+         height: 200px;
+         background-color: #289ab0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         }
+         nav{
+         display: flex;
+         background-color: #333333;
+         }
+         nav a {
+         color: white;
+         padding: 14px 20px;
+         text-decoration: none;
+         text-align: center;
+         }
+         nav a:hover{
+         background-color: #dddddd;
+         color: black;
+         }
+         #container{
+         display: flex;
+         flex-wrap: wrap;
+         }
+         aside{
+         background-color: #f1f1f1;
+         padding: 20px;
+         }
+         article{
+         flex: 7;
+         background-color: white;
+         padding: 20px;
+         }
+         h2{
+         margin-block-start:2em;
+         margin-inline-start: 2em;
+         }
+         .fakeimg{
+         background: #aaaaaa;
+         padding: 20px;
+         }
+         footer{
+         padding: 20px;
+         text-align: center;
+         background: gray;
+         }
+         div.contents {
+         padding: 20px;
+         }
+         @media all and (max-width: 600px){
+         #container, nav{
+         flex-direction: column;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div style="background-color: #32b0c9; padding: 5px;">
+         <h4 style="text-align: center;"> seohyun highschool </h4>
+      </div>
+      <header>
+         <h1>COVID-19</h1>
+         <div class="refmenu">
+            <a href="https://seohyun.hs.kr/home/index.do" target="_blank">School</a>
+            <a href="http://ncov.mohw.go.kr/" target="_blank">Covid-19</a>
+            <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
+         </div>
+      </header>
+      <nav>
+         <a href="index1.html" >코로나 현황</a>
+         <a href="index2.html" >예술계</a>
+         <a href="index3.html" >경제</a>
+         <a href="index4.html" >미디어</a>
+      </nav>
+      <div id="container">
+      <aside>
+        <h2>코로나 관련 정보 </h2>
+        <h5> 20727 이채은 </h5>
+         <ul>
+            <li> 확진자 발생 동향</li>
+            <li>코로나 확진자 격리시설 이용안내</li>
+         </ul>
+      </aside>
+      <article>
+        <div class="contents">
+           <h1>확진자 발생 동향</h1>
+           <h5>written by 채은, Oct/13/2021</h5>
+           <div class="사진2" >
+              <img src="사진1.png" style="height: 300px;">
+           </div>
+           <p>  하루 확진자 수는 7월 7일부터 100일 연속 네 자릿수를 이어가고 있는 상황으로, 1,200~2,100대를 오르내리고 있다. <b>최근 1주일간 신규 확진자 수는 일별로 2,173명→1,953명→1,594명→1,297명→1,347명→1,583명→1,940명</b>을 기록했다. <br>
+              지역발생 확진자 중 수도권 확진자 비율이 80%를 넘어섰고, 지역별로 확진자 수를 조사해본 결과 백신 접종을 늦게 시작한 20대와 30대의 비율이 높은 것으로 나타났다.
+              한편 (10월 14일 기준) 인구대비 1차 접종률은 78.3%, 18세 이상 성인 기준으로는 91%이고 접종 완료자는 전 국민 대비 61.6%, 18세 이상 성인 기준으로는 71.6%인 것으로 나타났다.
+           </p>
+        </div>
+         <div class="contents">
+            <h2>코로나 확진자 격리시설 이용안내</h2>
+            <p>
+            <ul>
+               <li>  입소 전 역학조사관이 확진일 이틀 전부터의 동선을 체크합니다. </li>
+               <li> 12세 미만의 아이가 입소하는 경우 보호자 함께 입소할 수 있습니다. </li>
+               <li> 배정받은 생활치료센터의 연락을 받은 후 구급차를 타고 이동합니다.</li>
+            </ul>
+            <div class="fakeimg" >
+               <img src="사진2.png" style="height: 300px;">
+            </div>
+
+      </article>
+      </div>
+      <footer>
+         <h2>Footer</h2>
+      </footer>
+   </body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Tamplate Web Site</title>
+      <style>
+         body{margin: 0;}
+         header{
+         height: 200px;
+         background-color: #289ab0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         }
+         nav{
+         display: flex;
+         background-color: #333333;
+         }
+         nav a {
+         color: white;
+         padding: 14px 20px;
+         text-decoration: none;
+         text-align: center;
+         }
+         nav a:hover{
+         background-color: #dddddd;
+         color: black;
+         }
+         #container{
+         display: flex;
+         flex-wrap: wrap;
+         }
+         aside{
+         background-color: #f1f1f1;
+         padding: 20px;
+         }
+         article{
+         flex: 7;
+         background-color: white;
+         padding: 20px;
+         }
+         h2{
+         margin-block-start:2em;
+         margin-inline-start: 2em;
+         }
+         .fakeimg{
+         background: #aaaaaa;
+         padding: 20px;
+         }
+         footer{
+         padding: 20px;
+         text-align: center;
+         background: gray;
+         }
+         div.contents {
+         padding: 20px;
+         }
+         @media all and (max-width: 600px){
+         #container, nav{
+         flex-direction: column;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div style="background-color: #32b0c9; padding: 5px;">
+         <h4 style="text-align: center;"> seohyun highschool </h4>
+      </div>
+      <header>
+         <h1>COVID-19</h1>
+         <div class="refmenu">
+            <a href="https://seohyun.hs.kr/home/index.do" target="_blank">School</a>
+            <a href="http://ncov.mohw.go.kr/" target="_blank">Covid-19</a>
+            <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
+         </div>
+      </header>
+      <nav>
+         <a href="index1.html" >코로나 현황</a>
+         <a href="index2.html" >예술계</a>
+         <a href="index3.html" >경제</a>
+         <a href="index4.html" >미디어</a>
+      </nav>
+      <div id="container">
+         <aside>
+           <h2> 미디어 사용 </h2>
+           <h5> 이서윤 </h5>
+            <ul>
+               <li>미디어 관심도</li>
+               <li> 넷플릭스</li>
+            </ul>
+         </aside>
+         <article>
+            <div class="contents">
+              <h2>코로나와 미디어</h2>
+                       <h5>21017 이서윤</h5>
+
+                       <p>다음은 지난 5년동안의  ‘ott’라는 키워드의  전세계 사람들의 관심도를 나타낸 그래프이다.</p>
+                       <div class="사진3">
+                       <img src="사진3.png" style+"height: 300px;"> </div>
+                       <p>코로나-19가 중국 우한 지역에서 2019년 12월에 전파되기 시작해, 2019년 8월 4일 및 2021년 1월 24일 사이에 국내에서 대유행이 되었던 사실을 인지하면, 2019년 갈수록 가파라지는 그래프의 상승세는 사회적 거리두기로 인한 ott의 관심도 증가를 보여준다는 것을 유추하는 것이 가능하다.</p>
+                       <p>아래는 국내에서의 키워드 ‘넷플릭스'에 대한 관심도를 나타낸 그래프이다.</p>
+                       <div class="사진4">
+                       <img src="사진4.png" style+"height: 300px;"> </div>
+                       <p>넷플릭스는 한국에서 2016년 1월에 서비스를 시작해 이후 꾸준히 상승하는 관심도를 보였고, 이후 국내에서 사회적 거리두기가 강조되고 외부활동보다는 개인적인 실내활동을 권장하는 분위기가 형성되자, 안전하게 문화생활을 즐기려는 사람들이 직접 영화관에 가기보다는 OTT를 이용하고자 OTT서비스 중의 하나인 넷플릭스를 선택한 것으로 보인다.</p>
+                       <p>실제로, KOBIS(영화 진흥 위원회)의 통계에 따르면 코로나가 대중적으로 전파되기 이전인 2019년의 국내 총전체관객수는 115,621,862명에 달하고, 970,793,408,451원에 달하는 매출액을 거뒀던 것에 비해, 2020년의 총전체관객수는 40,462,371명이며, 매출액은 350,412,173,790원으로 전년과 대비해 현저하게 줄어든 것을 확인할 수 있다.</P>
+                       <p>따라서, 코로나19의 발현을 기점으로 OTT서비스는 그의 발전 양상을 뚜렷히 나타내고 있으며 우리 생활에 더욱 밀접해지고 있음을 알 수 있다.</P>
+            </div>
+         </article>
+      </div>
+      <footer>
+         <h2>Footer</h2>
+      </footer>
+   </body>
+</html>

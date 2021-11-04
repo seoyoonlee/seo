@@ -1,0 +1,120 @@
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Tamplate Web Site</title>
+      <style>
+         body{margin: 0;}
+         header{
+         height: 200px;
+         background-color: #289ab0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         color: white;
+         }
+         nav{
+         display: flex;
+         background-color: #333333;
+         }
+         nav a {
+         color: white;
+         padding: 14px 20px;
+         text-decoration: none;
+         text-align: center;
+         }
+         nav a:hover{
+         background-color: #dddddd;
+         color: black;
+         }
+         #container{
+         display: flex;
+         flex-wrap: wrap;
+         }
+         aside{
+         background-color: #f1f1f1;
+         padding: 20px;
+         }
+         article{
+         flex: 7;
+         background-color: white;
+         padding: 20px;
+         }
+         h2{
+         margin-block-start:2em;
+         margin-inline-start: 2em;
+         }
+         .fakeimg{
+         background: #aaaaaa;
+         padding: 20px;
+         }
+         footer{
+         padding: 20px;
+         text-align: center;
+         background: gray;
+         }
+         div.contents {
+         padding: 20px;
+         }
+         @media all and (max-width: 600px){
+         #container, nav{
+         flex-direction: column;
+         }
+         }
+      </style>
+   </head>
+   <body>
+      <div style="background-color: #32b0c9; padding: 5px;">
+         <h4 style="text-align: center;"> seohyun highschool </h4>
+      </div>
+      <header>
+         <h1>COVID-19</h1>
+         <div class="refmenu">
+            <a href="https://seohyun.hs.kr/home/index.do" target="_blank">School</a>
+            <a href="http://ncov.mohw.go.kr/" target="_blank">Covid-19</a>
+            <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
+         </div>
+      </header>
+      <nav>
+         <a href="index1.html" >코로나 현황</a>
+         <a href="index2.html" >예술계</a>
+         <a href="index3.html" >경제</a>
+         <a href="index4.html" >미디어</a>
+      </nav>
+      <div id="container">
+         <aside>
+           <h2>경제 변화 </h2>
+           <h5> 전채원 </h5>
+            <ul>
+               <li>언택트 시대</li>
+               <li> 코로나19 속 경제는?</li>
+            </ul>
+         </aside>
+         <article>
+            <div class="contents">
+              <h2>코로나로 인한 사회 변화, 언택트 시대</h2>
+                            <h5>written by 20226전채원, Oct/13/2021</h5>
+                        <p><b>언택트(비대면, untact)란 무엇일까?</b>
+              <br>접촉을 뜻하는 콘택트(contact)에 부정, 반대를 뜻하는 언(un)을 붙인 신조어로 사람과 대면없이 첨단 기술을 활용해 상품 및 서비스를 이용하는 것을 말한다.<br>
+              <br><b>언택트 시대 속 다양한 생활에 대해 알아보자</b><br>
+              코로나19 바이러스로 인하여 마주하게 된 우리는 뉴 노멀(new nomal : 새로운 사회 현상) 시대에 산업 전반이 변화하고 있다. 코로나 19와 마주한 우리는 서로 마주하는 순간, 함께 뛰어놀며, 공부하고, 일하는 문화를 혁신적으로 변화시키고 있다.
+              사회적 거리두기를 실시하다보니 언택트(비대면, untact)가 보편화되고 있다.
+              </p>
+              <a href="https://blog.naver.com/ebsstory/221978868268">언택트 시대 속 다양한 변화
+              </a>
+              <p><b>코로나19 속 경제는?</b>
+              <br>2019년 시작된 코로나19로 세계 경제가 휘청거렸고, 위기는 현재 진행형이다.
+              코로나19 감염 예방을 위한 사회적 거리두기부터 백신 예방 접종까지 세계적으로 대안 책이 마련되고 있지만, 코로나19가 종식될 기미는 보이지 않다.
+              특히 코로나19로 인해 전 세계적으로 경제 공황이 예고됐다.
+              특히 현재 세계 시장 경제는 마이너스 경제 성장률을 기록하며 더욱 심각한 경제 위기가 빠르게 진행되고 있다.</br>
+              </p>
+               <a href="https://www.dailyt.co.kr/newsView/dlt202108130001">코로나로 인한 삶의 변화 - 경제
+              </a>
+            </div>
+         </article>
+      </div>
+      <footer>
+         <h2>Footer</h2>
+      </footer>
+   </body>
+</html>
